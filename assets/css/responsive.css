@@ -1,0 +1,180 @@
+
+@media screen and (max-width:480px) { 
+
+.header .logo figure {
+max-width: 240px;
+}
+
+span.menu {
+display: block;
+}
+
+nav.nav {
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+background-color: rgba(255, 255, 255, .9);
+z-index: 1009;
+display: none;
+}  
+.nav ol {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+position: relative;
+width: 100%;
+padding: 40% 4%;
+flex-flow: column;
+}
+.nav ol li,
+.nav ol li:first-child {
+display: inline-block;
+position: relative;
+padding: 0 0 32px 0;
+}
+.nav ol li:last-child  {
+padding: 0;
+}
+
+.nav ol li a {
+font-size: 1.6rem;
+}
+.nav ul {
+width: 100%;
+display: flex;
+justify-content: space-around;
+padding: 0 4%;
+}
+.nav ul li:first-child {
+padding: 0;
+width: 100%;
+text-align: center;
+margin-bottom: 32px;
+}
+.nav ul li:first-child a img {
+width: 160px;
+background-color: #fff;
+height: auto;
+}
+.nav ul li {
+padding: 0;
+}
+
+.mv {
+flex-flow: column;
+}
+.swiper01,.swiper02 {
+width: 100%;
+}
+
+.bnr-area ul li {
+width: 100%;
+height: auto;
+}
+.bnr-area ul li:first-child {
+margin-bottom: 24px;
+}
+.cv-btn {
+max-width: 140px;
+margin: 0;
+}
+.top-btn {
+display: none;
+}
+.news dt {
+width: 100%;
+display: flex;
+justify-content: start;
+align-items: flex-start;
+padding: 0 2%;
+margin-bottom: 16px;
+border: none;
+}
+.news dd {
+width: 100%;
+line-height: 1.4;
+}
+.prof-flex picture {
+width: 100%;
+margin-bottom: 32px;
+}
+.prof-area {
+width: 100%;
+}
+.prof-area p.award {
+margin-bottom: 12px;
+}
+
+#titles p {
+font-size: 4vw;
+line-height: 2;
+}
+#titles p span.bg-red {
+font-size: 4vw;
+}
+#titles p b {
+font-size: 4vw;
+}
+.record-flow {
+height: 320px;
+}
+.media-img {
+width: 100%;
+}
+.media-img h3 {
+width: 100%;
+display: flex;
+justify-content: start;
+align-items: flex-start;
+padding: 16px 4%;
+margin-bottom: 16px;
+}
+.media-flex dl {
+width: 100%;
+}
+.media-flex dl dt {
+width: 100%;
+display: flex;
+justify-content: start;
+align-items: center;
+padding: 0 4% 16px;
+margin-bottom: 0;
+border-bottom: none;
+}
+.media-flex dl dd {
+width: 100%;
+padding: 0 4% 16px;
+margin-bottom: 24px;
+}
+.contact-wrap dt {
+width: 100%;
+}
+.contact-wrap dd {
+width: 100%;
+}
+.footer {
+margin-top: 160px;
+}
+.footer .inner {
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-flow: column;
+}
+p.copy {
+padding-bottom: 48px;
+}
+.footer ul {
+justify-content: space-between;
+width: 100%;
+}
+.footer ul li {
+margin-left: 0px;
+}
+}
